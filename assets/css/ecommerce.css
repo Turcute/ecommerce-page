@@ -109,10 +109,121 @@ header img {
   margin-bottom: 24px;
 }
 
-.logos{
+.logos {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 120px;
 }
+
 /* Trusted logo End */
+
+/* Green sofa & Lamb Start */
+.sofa-lamb-section {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 128px;
+}
+
+/* Green sofa & Lamb End */
+
+/* Featured Products Start */
+
+.prod-h3 {
+  margin-bottom: 20px;
+}
+
+.featured-products {
+  display: flex;
+  gap: 80px;
+  border-top: 1px solid #EAEAEA;
+  padding-top: 24px;
+  margin-bottom: 128px;
+}
+
+.featured-products img {
+  margin-bottom: 12px;
+}
+
+.featured-products p {
+  font-family: "Open Sans";
+  color: #807E7E;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  margin-bottom: 4px;
+}
+
+.featured-products h4 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-bottom: 8px;
+}
+
+.featured-products span {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+/* Featured Products End */
+
+/* Sofa Armin Start */
+.sofa-armin {
+  display: flex;
+  margin-bottom: 136px;
+}
+
+.text-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 438px;
+  background-color: #FAFAFB;
+}
+
+.sofa-text {
+  width: 287px;
+  background-color: #FAFAFB;
+}
+
+.sofa-text h2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.35px;
+  margin-bottom: 8px;
+}
+
+.sofa-text p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin-bottom: 40px;
+}
+
+.sofa-btn {
+  display: flex;
+}
+
+.sofa-text a {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+/* Sofa Armin End */
+
