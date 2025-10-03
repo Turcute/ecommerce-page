@@ -225,15 +225,16 @@ header img {
   line-height: 32px;
   letter-spacing: 0px;
 }
+
 /* Sofa Armin End */
 
 /* Featured Products v2 Start */
-.featured-v2-h3{
+.featured-v2-h3 {
   margin-bottom: 20px;
 }
 
-.featured-v2{
-  border-top: 1px solid #EAEAEA;  
+.featured-v2 {
+  border-top: 1px solid #EAEAEA;
   padding-top: 24px;
   display: flex;
   flex-wrap: wrap;
@@ -241,7 +242,60 @@ header img {
   margin-bottom: 136px;
 }
 
-.featured-v2 img{
+.featured-v2 img {
   display: block;
 }
+
 /* Featured Products v2 End */
+
+/* Latest Articles Start */
+.latest-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.latest-h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  border-bottom: 1px solid #EAEAEA;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-section a {
+  background: url(../img/arrow.svg) no-repeat;
+  background-position: right center;
+  text-decoration: none;
+  color: inherit;
+  padding-right: 20px;
+}
+
+.latest-section img{
+  margin-bottom: 16px;
+}
+
+.latest-section p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  margin-bottom: 3px;
+  color: #807E7E;
+}
+
+.latest-section h3 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
