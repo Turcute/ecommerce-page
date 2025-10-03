@@ -17,10 +17,13 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
+/* Header Start */
 .header-bg-color {
   width: 1440px;
+  height: 672px;
   background-color: #FFC9BA;
   margin-inline: auto;
+  margin-bottom: 56px;
 }
 
 header {
@@ -38,3 +41,78 @@ header img {
   display: flex;
   gap: 32px;
 }
+
+/* Header End */
+
+/* Hero Start */
+.hero-content {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  width: 373px;
+  margin-right: 24px;
+  margin-left: 165px;
+}
+
+.hero-text h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+
+.hero-text p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-bottom: 32px;
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text a {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  color: black;
+}
+
+.hero-img {
+  margin-right: 151px;
+  margin-top: 168px;
+}
+
+/* Hero End */
+
+.container {
+  width: 1110px;
+  margin-inline: auto;
+}
+
+/* Trusted Logo Start */
+.trusted-logos p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin-bottom: 24px;
+}
+
+.logos{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+/* Trusted logo End */
