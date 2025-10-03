@@ -227,3 +227,21 @@ header img {
 }
 /* Sofa Armin End */
 
+/* Featured Products v2 Start */
+.featured-v2-h3{
+  margin-bottom: 20px;
+}
+
+.featured-v2{
+  border-top: 1px solid #EAEAEA;  
+  padding-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 136px;
+}
+
+.featured-v2 img{
+  display: block;
+}
+/* Featured Products v2 End */
