@@ -94,10 +94,15 @@ header img {
 
 /* Hero End */
 
+
+/* Genel Container */
 .container {
   width: 1110px;
   margin-inline: auto;
 }
+
+/* Genel Container */
+
 
 /* Trusted Logo Start */
 .trusted-logos p {
@@ -127,8 +132,8 @@ header img {
 
 /* Green sofa & Lamb End */
 
-/* Featured Products Start */
 
+/* Featured Products Start */
 .prod-h3 {
   margin-bottom: 20px;
 }
@@ -173,6 +178,7 @@ header img {
 }
 
 /* Featured Products End */
+
 
 /* Sofa Armin Start */
 .sofa-armin {
@@ -228,6 +234,7 @@ header img {
 
 /* Sofa Armin End */
 
+
 /* Featured Products v2 Start */
 .featured-v2-h3 {
   margin-bottom: 20px;
@@ -245,15 +252,16 @@ header img {
 .featured-v2 img {
   display: block;
 }
-
 /* Featured Products v2 End */
 
+
 /* Latest Articles Start */
-.latest-content{
+.latest-content {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
+  margin-bottom: 80px;
 }
 
 .latest-h3 {
@@ -278,7 +286,7 @@ header img {
   padding-right: 20px;
 }
 
-.latest-section img{
+.latest-section img {
   margin-bottom: 16px;
 }
 
@@ -299,3 +307,94 @@ header img {
   line-height: 28px;
   letter-spacing: 0px;
 }
+/* Latest Articles End */
+
+
+/* Footer Top Start */
+footer {
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+  padding-inline: 165px;
+  padding-block: 72px;
+  margin-bottom: 24px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.footer-left {
+  width: 500px;
+  margin-left: 165px;
+}
+
+.footer-left img {
+  margin-bottom: 24px;
+}
+
+.footer-left p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.footer-right {
+  margin-right: 165px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links li,
+ul {
+  align-items: center;
+  list-style-type: none;
+  padding-block: 8px;
+}
+
+.footer-links ul {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.footer-links ul li a {
+  color: #807E7E
+}
+/* Footer Top End */
+
+/* Footer Bottom Start */
+.footer-bottom {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer-copy {
+  margin-left: auto;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+/* Footer Bottom End */
